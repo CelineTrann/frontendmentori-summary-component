@@ -5,43 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <main>
+    <div class="result">
+      <h2>Your Result</h3>
+      
+      <div class="circle">
+        <h1>76</h1>
+        <p>of 100</p>
+      </div>
+      
+      <h3>Great</h3>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
 
-  Your Result
-  76
-  of 100
+    <div class="summary">
+      <h2>Summary</h2>
+      <div class="score red">
+        <img src="assets\images\icon-reaction.svg" alt="reaction icon">
+        Reaction
+        80 / 100
+      </div>
+      <div class="score yellow">
+        <img src="assets\images\icon-memory.svg" alt="memory icon">
+        Memory
+        92 / 100
+      </div>
+      <div class="score green">
+        <img src="assets\images\icon-verbal.svg" alt="verbal icon">
+        Verbal
+        61 / 100
+      </div>
+      <div class="score blue">
+        <img src="assets\images\icon-visual.svg" alt="visual icon">
+        Visual
+        72 / 100
+      </div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+      <button>Continue</button>
+    </div>
+  </main>
 
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  
 </body>
 </html>
