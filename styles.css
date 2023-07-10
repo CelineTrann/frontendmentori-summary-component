@@ -45,15 +45,21 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+}
 
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 10px 5px;
+    margin: 10px 20px;
 }
 
 /* Score Containers */
 .score-container {
     border-radius: 5px;
     padding: 10px 5px;
-    margin: 0 10px;
+    margin: 0 20px;
 
     display: flex;
     flex-direction: row;
@@ -78,21 +84,21 @@ main {
 }
 
 .red {
-    background-color: hsla(0, 100%, 67%, 0.2);
+    background-color: hsla(0, 100%, 67%, 0.1);
     color: hsl(0, 100%, 67%);
 }
 
 .yellow {
-    background-color: hsla(39, 100%, 56%, 0.2);
+    background-color: hsla(39, 100%, 56%, 0.1);
     color: hsl(39, 100%, 56%);
 }
 
 .green {
-    background-color: hsla(166, 100%, 37%, 0.2);
+    background-color: hsla(166, 100%, 37%, 0.1);
     color: hsl(166, 100%, 37%);
 }
 
 .blue {
-    background-color: hsla(234, 85%, 45%, 0.2);
+    background-color: hsla(234, 85%, 45%, 0.1);
     color: hsl(234, 85%, 45%);
 }
