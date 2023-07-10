@@ -7,6 +7,7 @@ html, body {
     background-color: hsl(221, 100%, 96%);
 }
 
+
 main {
     background-color: hsl(221, 100%, 96%);
     display: flex;
@@ -16,28 +17,82 @@ main {
 }
 
 .content {
-    background-color: hsl(0, 0%, 100%);;
-    border-radius: 10%;
+    /* background-color: hsl(0, 0%, 100%); */
+    background-color: black;
+    border-radius: 30px;
     height: 50%;
     width: 40%;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     
 }
 
 .result {
     background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    border-radius: 10%;
+    border-radius: 30px;
     width: 50%;
     height: 100%;
 }
 
 .summary {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 10%;
+    border-radius: 30px;
     width: 50%;
     height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
 }
 
+/* Score Containers */
+.score-container {
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 0 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    flex-grow: 1;
+}
+
+.label {
+    flex-grow: 10;
+}
+
+.score {
+    color: hsl(0, 0%, 0%);
+    flex-grow: 1;
+}
+
+.total {
+    color: hsl(0, 0%, 28%);
+    flex-grow: 1;
+}
+
+.red {
+    background-color: hsla(0, 100%, 67%, 0.2);
+    color: hsl(0, 100%, 67%);
+}
+
+.yellow {
+    background-color: hsla(39, 100%, 56%, 0.2);
+    color: hsl(39, 100%, 56%);
+}
+
+.green {
+    background-color: hsla(166, 100%, 37%, 0.2);
+    color: hsl(166, 100%, 37%);
+}
+
+.blue {
+    background-color: hsla(234, 85%, 45%, 0.2);
+    color: hsl(234, 85%, 45%);
+}
