@@ -36,7 +36,6 @@ main {
     flex-direction: row;
 
     box-shadow: 10px 10px 29px 3px hsla(221, 100%, 96%,0.59);
-    
 }
 
 .result {
@@ -160,3 +159,19 @@ button {
     background-color: hsla(234, 85%, 45%, 0.1);
     color: hsl(234, 85%, 45%);
 }
+
+@media screen and (min-width: 375px) {
+    .content {
+        background-color: hsl(0, 0%, 100%);
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    .result, .summary {
+        width: auto;
+        height: 50%;
+    }
+  }
