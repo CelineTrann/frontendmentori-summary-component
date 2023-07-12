@@ -113,20 +113,13 @@ section {
     background-color: var(--white);
 }
 
-.summary h1 {
-    color: var(--dark-grey-blue);
-    font-weight: 500;
-    margin-left: 30px;
-    margin-bottom: 0;
+.summary-content {
+    padding: 0 30px;
 }
 
-.summary-content {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center;
-
-    margin: 20px 50px;
+.summary-content h1 {
+    color: var(--dark-grey-blue);
+    font-weight: 500;
 }
 
 .individual-score {
@@ -135,9 +128,8 @@ section {
     align-items: center;
     justify-content: space-between;
 
-    width: 100%;
     border-radius: 10px;
-    margin-top: 15px;
+    margin: 20px 0;
     padding: 15px 20px;
 
     font-size: 18px;
@@ -146,6 +138,18 @@ section {
 
 img {
     vertical-align: middle;
+}
+
+button {
+    background-color: var(--dark-grey-blue);
+    color: var(--pale-blue);    
+
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 30px;
+
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .red {
@@ -188,15 +192,3 @@ img {
     color: #808080;
 }
 
-button {
-    background-color: var(--dark-grey-blue);
-    color: var(--pale-blue);    
-
-    width: 100%;
-    border-radius: 30px;
-    margin-top: 25px;
-    padding: 15px 40px;
-
-    font-size: 16px;
-    font-weight: 500;
-}
