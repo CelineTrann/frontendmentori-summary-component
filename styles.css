@@ -7,6 +7,11 @@
     --green-teal: hsl(166, 100%, 37%);
     --colbolt-blue: hsl(234, 85%, 45%);
 
+    --light-red-background: hsla(0, 100%, 67%, 0.1);
+    --orange-yellow-background: hsla(39, 100%, 56%, 0.1);
+    --green-teal-background: hsla(166, 100%, 37%, 0.1);
+    --colbolt-blue-background: hsla(234, 85%, 45%, 0.1);
+
     /* Gradients */
     --background-gradient: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     --circle-gradient: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
@@ -106,4 +111,92 @@ section {
 /* Summary Components */
 .summary {
     background-color: var(--white);
+}
+
+.summary h1 {
+    color: var(--dark-grey-blue);
+    font-weight: 500;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+.summary-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 20px 50px;
+}
+
+.individual-score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px 20px;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.red {
+    background-color: var(--light-red-background);
+}
+
+.red p {
+    color: var(--light-red);
+}
+
+.yellow {
+    background-color: var(--orange-yellow-background);
+}
+
+.yellow p {
+    color: var(--orange-yellow);
+}
+
+.green {
+    background-color: var(--green-teal-background);
+}
+
+.green p {
+    color: var(--green-teal);
+}
+
+.blue {
+    background-color: var(--colbolt-blue-background);
+}
+
+.blue p {
+    color: var(--colbolt-blue);
+}
+
+.score {
+    color: #000000;
+}
+
+.total {
+    color: #808080;
+}
+
+button {
+    background-color: var(--dark-grey-blue);
+    color: var(--pale-blue);    
+
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding: 15px 40px;
+
+    font-size: 16px;
+    font-weight: 500;
 }
